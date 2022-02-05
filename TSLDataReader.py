@@ -1,3 +1,31 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
+# Copyright © 2022 Yauhen Tratsiak. All rights reserved.
+# Authors: Yauhen Tratsiak <ytratsia@utk.edu>
+# License: GPLv3 (GNU General Public License Version 3)
+#          https://www.gnu.org/licenses/quick-guide-gplv3.html
+#
+# This file is part of TSL deconvolute software.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+'''
+This file contains small class for reading TSL data files. If should be replaced in accordance with your needs.
+'''
+
 import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
